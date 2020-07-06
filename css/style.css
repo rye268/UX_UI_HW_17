@@ -1,0 +1,190 @@
+* {
+    margin: 0 auto;
+}
+
+/* ABOUT ME SECTION */
+
+nav {
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 4;
+}
+
+.about_me {
+    background: #651212;
+    width: 100%;
+    height: 789px;
+    display: flex;
+}
+
+.navigation_am, .navigation_p {
+    font-family: 'Montserrat', Times, serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.navigation_am {
+    color: white
+}
+
+.overlay_am {
+    position: absolute;
+    height: 789px;
+    width: 42%;
+    background: rgb(0,0,0,0.7);
+    z-index: 2;
+}
+
+.logo {
+    width: 40px;
+    position: absolute;
+    margin: -20px 10px 10px -20px;
+}
+
+.social img {
+    margin-left: 50px;
+    width: 30px;
+}
+
+h1 {
+    font-family: 'Droid Serif', Times, serif;
+    font-weight: 800;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: 'Montserrat', Times, serif;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 15px;
+}
+
+h3 {
+    font-family: 'Montserrat', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Droid serif', Times, serif;
+    font-size: 12px;
+}
+
+.about_me h1, .about_me h3, .about_me p {
+    color: white;
+}
+
+.left_am, .left_p {
+    position: absolute;
+    z-index: 4;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 140px;
+}
+
+.left_am h1, .left_p h1 {
+    margin-bottom: -10px;
+}
+
+.left_am h3, left_p h3 {
+    margin-top: 10px;
+}
+
+.scroll {
+    margin-top: 280%;
+
+}
+
+.scroll p {
+    color: #A8A8A8;
+    transform: rotate(270deg);
+    font-family: 'Montserrat', Times, serif;
+    font-size: 12px;
+    margin-top: 60px;
+}
+
+.right_am {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 50%;
+    margin-right: 50px;
+    line-height: 30px;
+    z-index: 4;
+    min-width: 500px;
+}
+
+.doodle {
+    position: absolute;
+    margin-top: 330px;
+    margin-right: 200px;
+    margin-left: 300px;
+    width: 1000px;
+    z-index: 4;
+}
+
+/* PORTFOLIO SECTION */
+
+.portfolio {
+    background: white;
+    width: 100%;
+    height: 789px;
+    display: flex;
+}
+
+.navigation_p {
+    color: black;
+}
+
+.overlay_p {
+    position: absolute;
+    height: 789px;
+    width: 42%;
+    background: #E3DDDD;
+    opacity: 0.7;
+    z-index: 2;
+}
+
+
+.portfolio h1, .portfolio h3 {
+    color: #673D3D;
+}
+
+.left_p .scroll p {
+    color: #673D3D;
+}
+
+.right_p {
+    z-index: 4;
+    position: absolute;
+    width: 100%;
+}
+
+.right_p h2 {
+    margin-top: 150px;
+    margin-left: 24%;
+    color: #673D3D;
+}
+
+.projects {
+    margin-top: 60px;
+    margin-left: 24%;
+}
+.projects img {
+    width: 300px;
+    margin-right: 100px;
+}
+
+.yellow_font {
+    color: #FFD800;
+}
+
+.golden_font {
+    color: #968003;
+}
+
+
